@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Fredericka+the+Great|Oswald:400,500,600,700&display=swap');
+/*---------------------------------------------- attributes*/
+
+body {
+    font-family: Fredericka the Great, cursive;
+    color: green;
+
+}
+
+li {
+
+}
+
+li ul {
+    color: #421349;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+a {
+
+}
+
+a :hover {
+
+}
+
+h1 {font-family: Fredericka the Great, cursive;
+    font-size: bold;
+    font-size: 100%;
+    color: #421349;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+h2 {
+    font-family: Fredericka the Great, cursive;
+    font-size: bold;
+    font-size: 500%;
+    color: #421349;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+
+}
+
+p {
+    font-family: Fredericka the Great, cursive;
+    font-size: bold;
+    font-size: 100%;
+    color: #421349;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+
+
+}
+
+section {
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+span {
+
+}
+
+i {
+    color: #421349;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+
+}
+
+/*----------------------------------------------Classes */
+
+.row {
+
+}
+
+.col {
+
+}
+
+.navbar {
+    background-color: #bdecb6;
+    padding: 2px;
+}
+
+#menuitem {
+    font-family: Fredericka the Great, cursive;
+    list-style-type: none;    
+}
+
+.menuitem-logo {
+
+}
+
+.menuitem-drinks {
+
+}
+
+.menuitem-contact {
+
+}
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#logo {
+  float: left;
+  font-size: 200%;
+  margin-left: 30px;
+}
