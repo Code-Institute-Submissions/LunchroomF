@@ -51,20 +51,21 @@ i {
 h1 {
     font-family: Fredericka the Great, cursive;
     font-size: bold;
-    font-size: 150%;
+    font-size: 200%;
     color: #421349;
     text-align: center;
     padding: 10px 0px 10px 0px;
+    border: 5px rgba(66, 19, 73, .5);
+    border-style: groove none groove none;
 }
 
 h2 {
     font-family: Fredericka the Great, cursive;
     font-size: bold;
-    font-size: 200%;
+    font-size: 150%;
     color: #421349;
     text-align: center;
     padding: 10px 0px 10px 0px;
-
 }
 
 p {
