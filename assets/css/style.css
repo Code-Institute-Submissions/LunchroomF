@@ -23,18 +23,18 @@ a :hover {
 #hero-text {
    font-size: 300%;
    text-transform: uppercase;
-   letter-spacing: 4px;
+   letter-spacing: 8px;
 
-   width: 100%;
+   width: 50%;
    height: 200px;
 
    padding-top: 40px;
    padding-left: 10px;
 
    background-color: rgba(189, 236, 182, .7);
-    float: right;
 
   position: relative;
+  float: right;
  }
 
 i {
@@ -87,9 +87,15 @@ header {
 
 footer {
     background-color: #bdecb6;
-    height: 100%;
     padding: 5px 0px 5px 0px;
     margin: 0px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
 }
 
 span {
