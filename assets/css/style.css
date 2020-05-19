@@ -97,7 +97,6 @@ footer {
    color: white;
    text-align: center;
 }
-}
 
 span {
 
@@ -150,4 +149,44 @@ span {
 }
 .active {
   border-bottom: 1px solid #777777;
+}
+
+/* #circle-container {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0;
+  margin-bottom: 10px; 
+}*/
+
+#circle-cover-bg1 {
+  background: url("../images/North_Brabant-Flag.png")
+  center;
+  object-fit: scale-down;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: center;
+}
+
+#circle-cover-bg2 {
+  background: url("../images/arno-smit.jpg")
+  center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: center;
+}
+#circle-cover-bg3 {
+  background: url("../images/nadine-primeau.jpg")
+  center;
+  object-fit: scale-down;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: center;
 }
