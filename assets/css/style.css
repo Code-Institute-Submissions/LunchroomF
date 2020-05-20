@@ -5,12 +5,10 @@ body {
     font-family: Fredericka the Great, cursive;
 }
 
-
 a :hover {
-
 }
+
 #hero-image {
-  height: 50%;
   width: 100%;
   background: url("../images/brooke-lark.jpg");
   background-position: center;
@@ -21,51 +19,60 @@ a :hover {
 }
 
 #hero-text {
-   font-size: 300%;
    text-transform: uppercase;
    letter-spacing: 8px;
 
    width: 50%;
    height: 200px;
 
-   padding-top: 40px;
-   padding-left: 10px;
+   padding: 40px 40px 40px 40px;
 
    background-color: rgba(189, 236, 182, .7);
 
   position: relative;
   float: right;
- }
+
+  text-align: center;
+}
 
 i {
     font-family: Fredericka the Great, cursive;
     text-transform: uppercase;
-    font-size: bold;
     font-size: 100%;
     color: #421349;
     text-align: center;
     padding: 10px 0px 10px 0px;
     display: block;
-
 }
+
 h1 {
     font-family: Fredericka the Great, cursive;
-    font-size: bold;
-    font-size: 200%;
+    color: #421349;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border: 5px rgba(66, 19, 73, .5);
+    border-style: groove none groove none;
+    font-size: min(max(40px, 8vw), 50px);
+    text-overflow: clip;
+}
+
+h2 {
+    font-family: Fredericka the Great, cursive;
+    font-size: 300%;
     color: #421349;
     text-align: center;
     padding: 10px 0px 10px 0px;
     border: 5px rgba(66, 19, 73, .5);
-    border-style: groove none groove none;
 }
 
-h2 {
+
+h3 {
     font-family: Fredericka the Great, cursive;
     font-size: bold;
     font-size: 150%;
     color: #421349;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 p {
@@ -73,14 +80,11 @@ p {
     font-size: bold;
     font-size: 100%;
     color: #421349;
-    text-align: left;
-    padding: 10px 0px 10px 0px;
-
-
+    text-align: justify;
+    padding: 0px 0px 5px 0px;
 }
 
 section {
-
 }
 
 header {
@@ -99,17 +103,14 @@ footer {
 }
 
 span {
-
 }
 
 /*----------------------------------------------Classes */
 
 .row {
-
 }
 
 .col {
-
 }
 
 .navbar {
@@ -121,47 +122,11 @@ span {
 .menuitem {
     font-family: Fredericka the Great, cursive;
     list-style-type: none;   
-
 }
 
-.menuitem-logo {
-
-}
-
-.menuitem-drinks {
-
-}
-
-.menuitem-contact {
-
-}
-
-
-
-
-
-.col-lg-6 #logo {
-  float: left;
-  margin-left: 10px;
-  background-color: #bdecb6;
-  list-style-type: none; 
-  font-size: 200%;  
-}
 .active {
   border-bottom: 1px solid #777777;
 }
-
-/* #circle-container {
-  width: 150px;
-  height: 150px;
-  padding: 20px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0;
-  margin-bottom: 10px; 
-}*/
 
 #circle-cover-bg1 {
   background: url("../images/North_Brabant-Flag.png")
@@ -181,6 +146,7 @@ span {
   border-radius: 50%;
   position: center;
 }
+
 #circle-cover-bg3 {
   background: url("../images/nadine-primeau.jpg")
   center;
@@ -189,4 +155,17 @@ span {
   width: 150px;
   border-radius: 50%;
   position: center;
+}
+
+.container {
+}
+
+#headercontainer {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#textcontainer {
+    text-align: center;
 }
