@@ -60,7 +60,7 @@ h2 {
     font-family: Fredericka the Great, cursive;
     font-size: 300%;
     color: #421349;
-    text-align: center;
+    text-align: left;
     padding: 10px 0px 10px 0px;
     border: 5px rgba(66, 19, 73, .5);
 }
@@ -117,15 +117,12 @@ span {
     background-color: #bdecb6;
     padding: 5px 0px 5px 0px;
     margin: 0px;
+    color: #421349;
 }
 
 .menuitem {
     font-family: Fredericka the Great, cursive;
     list-style-type: none;   
-}
-
-.active {
-  border-bottom: 1px solid #777777;
 }
 
 #circle-cover-bg1 {
