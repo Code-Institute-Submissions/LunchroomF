@@ -7,15 +7,20 @@ body {
 
 
 nav  a :hover {
-    font-size: 350%;
+    background-color: #bdecb6;
+    color: #421349;
+    font-size: 150%;
 }
 
 nav ul :hover {
-    font-size: 150%;
+    background-color: #bdecb6;
+    color: #421349;
+    font-size: 110%;
 }
 
 #hero-image {
   height: 100%;
+  width: 100%;
   overflow: hidden;
   background: url("../images/brooke-lark.jpg");
   background-position: center;
@@ -65,7 +70,7 @@ h1 {
 
 h2 {
     font-family: Fredericka the Great, cursive;
-    font-size: 300%;
+    font-size: 200%;
     color: #421349;
     text-align: left;
     padding: 5px 5px 5px 10px;
@@ -94,6 +99,7 @@ section {
 header {
 }
 
+
 footer {
    background-color: #bdecb6;
    left: 0;
@@ -102,14 +108,16 @@ footer {
    color: #421349;
    text-align: center;
    padding: 5px;
+   margin-top: 20px;
 }
 
 footer a {
     color: #421349;
+    margin-top: 20px;
 }
 
-footer :hover {
-    font-size: 150%;
+footer a :hover {
+     text-decoration: none;
 }
 
 /*----------------------------------------------Classes */
@@ -129,7 +137,7 @@ footer :hover {
 #circle-cover-bg1 {
   background: url("../images/North_Brabant-Flag.png")
   center;
-  object-fit: scale-down;
+  background-size: contain;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -140,6 +148,7 @@ footer :hover {
 #circle-cover-bg2 {
   background: url("../images/arno-smit.jpg")
   center;
+  background-size: contain;
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -150,15 +159,12 @@ footer :hover {
 #circle-cover-bg3 {
   background: url("../images/nadine-primeau.jpg")
   center;
-  object-fit: scale-down;
+  background-size: cover;
   height: 150px;
   width: 150px;
   border-radius: 50%;
   position: center;
   margin: 20px;
-}
-
-.container {
 }
 
 #headercontainer {
@@ -171,7 +177,36 @@ footer :hover {
     text-align: center;
 }
 
-.card{
-    margin: 25px;
+.card {
     border: 5px solid #421349;
+    width: 50%;
+    position: relative center;
+}
+
+.dropdown-menu {
+    background-color: #bdecb6;
+    color: #421349;
+}
+
+.dropdown-item {
+    background-color: #bdecb6;
+    color: #421349;
+    font-weight: 200;
+}
+
+.dropdown-menu :hover{
+    background-color: #bdecb6;
+    color: #421349;
+}
+
+.dropdown-item {
+    background-color: #bdecb6;
+    color: #421349;
+    font-weight: 100%;
+}
+
+.btn {
+    background-color: #bdecb6;
+    color: #421349;
+    font-weight: 100%;
 }
