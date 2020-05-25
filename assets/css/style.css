@@ -5,16 +5,23 @@ body {
     font-family: Fredericka the Great, cursive;
 }
 
-a :hover {
+
+nav  a :hover {
+    font-size: 350%;
+}
+
+nav ul :hover {
+    font-size: 150%;
 }
 
 #hero-image {
-  width: 100%;
+  height: 100%;
+  overflow: hidden;
   background: url("../images/brooke-lark.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
+  padding: 20px 0px 20px 0px;
   margin: 0px;
 }
 
@@ -22,7 +29,6 @@ a :hover {
    text-transform: uppercase;
    letter-spacing: 8px;
 
-   width: 50%;
    height: 200px;
 
    padding: 40px 40px 40px 40px;
@@ -33,6 +39,7 @@ a :hover {
   float: right;
 
   text-align: center;
+  overflow: hidden;
 }
 
 i {
@@ -61,14 +68,12 @@ h2 {
     font-size: 300%;
     color: #421349;
     text-align: left;
-    padding: 10px 0px 10px 0px;
-    border: 5px rgba(66, 19, 73, .5);
+    padding: 5px 5px 5px 10px;
 }
 
 
 h3 {
     font-family: Fredericka the Great, cursive;
-    font-size: bold;
     font-size: 150%;
     color: #421349;
     text-align: center;
@@ -77,7 +82,6 @@ h3 {
 
 p {
     font-family: Fredericka the Great, cursive;
-    font-size: bold;
     font-size: 100%;
     color: #421349;
     text-align: justify;
@@ -91,38 +95,35 @@ header {
 }
 
 footer {
-    background-color: #bdecb6;
-    padding: 5px 0px 5px 0px;
-    margin: 0px;
-   position: fixed;
+   background-color: #bdecb6;
    left: 0;
    bottom: 0;
    width: 100%;
-   color: white;
+   color: #421349;
    text-align: center;
+   padding: 5px;
 }
 
-span {
+footer a {
+    color: #421349;
+}
+
+footer :hover {
+    font-size: 150%;
 }
 
 /*----------------------------------------------Classes */
-
-.row {
-}
-
-.col {
-}
-
 .navbar {
     background-color: #bdecb6;
-    padding: 5px 0px 5px 0px;
+    padding: 15px;
     margin: 0px;
     color: #421349;
 }
 
 .menuitem {
     font-family: Fredericka the Great, cursive;
-    list-style-type: none;   
+    list-style-type: none;  
+    padding: 10px; 
 }
 
 #circle-cover-bg1 {
@@ -133,6 +134,7 @@ span {
   width: 150px;
   border-radius: 50%;
   position: center;
+  margin: 20px;
 }
 
 #circle-cover-bg2 {
@@ -142,6 +144,7 @@ span {
   width: 150px;
   border-radius: 50%;
   position: center;
+  margin: 20px;
 }
 
 #circle-cover-bg3 {
@@ -152,6 +155,7 @@ span {
   width: 150px;
   border-radius: 50%;
   position: center;
+  margin: 20px;
 }
 
 .container {
@@ -165,4 +169,9 @@ span {
 
 #textcontainer {
     text-align: center;
+}
+
+.card{
+    margin: 25px;
+    border: 5px solid #421349;
 }
