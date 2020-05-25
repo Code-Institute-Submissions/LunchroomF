@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b019a41343.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -15,6 +14,8 @@
 </head>
 <body>
     <header>
+
+<!-- Hamburger menu taken from w3schools-->
         <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html"> <h2>Frisz</h2>
             </a>
@@ -44,7 +45,9 @@
             </div>
         </nav>
     
-    <!-- <nav>
+    <!-- alternative menu
+        
+        <nav>
             <div class="row">
                 <div class="col">
                     <ul class="navbar" id="menuitem">
@@ -66,6 +69,7 @@
         </nav> -->
     </header>
 
+<!-- hero image referece taken from getbootstrap.com-->
     <section> 
         <div class="col" id="hero-image">   
             <div class="col-6 text-center d-none d-sm-block" id="hero-text">
@@ -74,7 +78,7 @@
         </div>
     </section>
 
-
+<!-- this idea is taken from a previous assignment - Love Running with further responsivness from getbootstrap.com-->
     <section class="container">
          <div class="col">
             <div class="row">
@@ -91,12 +95,13 @@
         </div>
 
         <div class="row" id="textcontainer">
-            <div class="col-12 col-sm-4 col-lg-4"><h3>Lokaal</h3><p>Bij Frisz geloven we in duurzaamheid. En dan Nederland genoeg te bieden heeft om onze klanten te voorzien van heerlijke lunchgerechten</p></div>
-            <div class="col-12 col-sm-4 col-lg-4"><h3>Vers</h3><p>Met verse producten is het mogelijk om de lekkerste gerechten nóg lekkerder te maken. </p> </div>
+            <div class="col-12 col-sm-4 col-lg-4"><h3>Lokaal</h3><p>Bij Frisz geloven we in duurzaamheid. En dat Nederland genoeg te bieden heeft om onze klanten te voorzien van heerlijke lunchgerechten</p></div>
+            <div class="col-12 col-sm-4 col-lg-4"><h3>Vers</h3><p>Met maandelijks wisselende seizoensgroente wordt het met verse producten mogelijk om de lekkerste gerechten nóg lekkerder te maken. </p> </div>
             <div class="col-12 col-sm-4 col-lg-4"><h3>Gezond</h3><p>Bij Frisz willen we laten zien dat gezond niet ten koste hoeft te gaan van lekker. Gezonde voeding is de basis voor een goede gezondheid</p></div>
         </div>
     </section>
 
+<!-- this is also from getbootstrap.com - cards-->
     <section class="container">
         <div class="card-deck">
         <div class="card text-center">
@@ -104,20 +109,20 @@
             <div class="card-body">
             <h5 class="card-title">Gratis Snack</h5>
             <p class="card-text">Neem deze voucher mee naar onze opening voor een gratis snack</p>
-            <button type="button" href="../images/voucher.jpg" class="btn">Voucher</button>
-        </div>
+            <a href="voucher.html" class="btn">Voucher</a>        </div>
         </div>
         <div class="card text-center">
             <img class="card-img-top" src="ashkan-forouzani.jpg" alt="Card image cap">
             <div class="card-body">
             <h5 class="card-title">Gratis Drankje</h5>
             <p class="card-text">Neem deze voucher mee naar onze opening voor een gratis drankje</p>
-            <button type="button" href="../images/voucher.jpg" class="btn">Voucher</button>
+            <a href="voucher.html" class="btn">Voucher</a>
             </div>
         </div>
         </div>
     </section>
-<!-- <div class="container card text-center">
+<!-- In case needed there is a third card available
+     <div class="container card text-center">
   <div class="card-header">
     Gratis Cocktail 
   </div>

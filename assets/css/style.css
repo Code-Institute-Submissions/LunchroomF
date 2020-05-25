@@ -119,7 +119,6 @@ footer a {
 footer a :hover {
      text-decoration: none;
 }
-
 /*----------------------------------------------Classes */
 .navbar {
     background-color: #bdecb6;
@@ -133,6 +132,9 @@ footer a :hover {
     list-style-type: none;  
     padding: 10px; 
 }
+#circles {
+  text-align: center;
+}
 
 #circle-cover-bg1 {
   background: url("../images/North_Brabant-Flag.png")
@@ -141,7 +143,7 @@ footer a :hover {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  position: center;
+  align-content: center;
   margin: 20px;
 }
 
@@ -177,6 +179,9 @@ footer a :hover {
     text-align: center;
 }
 
+#textcontainer2 {
+     align-content: center;
+}
 .card {
     border: 5px solid #421349;
     width: 50%;
@@ -211,20 +216,13 @@ footer a :hover {
     font-weight: 100%;
 }
 
+.drinks {
+    object-fit: contain;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                cdnvdkjb kjf
+#voucher {
+  height: 100%;
+  width: 100%;
+  overflow: fill;
+  background: url("../images/voucher.jpg");
+}
